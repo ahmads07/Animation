@@ -1,0 +1,88 @@
+body{
+    background-color: greenyellow;
+}
+
+div{
+    border: black solid 1px;
+}
+
+#nav ul{
+    /*remove bullet points*/
+    list-style-type: none;
+
+    /*no space between ul and nav div*/
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    border: blue solid 1px;
+}
+
+#nav li{
+    /*move text to center for*/
+    text-align: center;
+    border-bottom: black solid 5px;
+
+    /*move all list items to one line*/
+    display: inline;
+}
+
+#nav li a{
+    color: green;
+    margin: 10px;
+
+    /*remove the _ for my hyperlink*/
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: darkgray;
+    font-style: italic;
+
+}
+
+/*tomorrow*/
+#nav li img{
+    width: 200px;
+    height: 200px;
+}
+
+/*animation*/
+/*Firstly Div setup*/
+#animation{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+/*Thirdly setup animation*/
+    animation-name: firstAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/*Secondly create keyframe*/
+@keyframes firstAnimation {
+
+    /*In keyframe we will change from.....to...*/
+    from {background-color: red}
+    to {background-color: blue;}
+}
+
+#animation2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: secondAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes secondAnimation {
+    0% {background-color: red}
+    20% {background-color: blue}
+    40% {background-color: yellow}
+    60% {background-color: green}
+    80% {background-color: fuchsia}
+    100% {background-color: deepskyblue}
+}
+
