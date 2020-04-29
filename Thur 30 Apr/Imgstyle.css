@@ -1,0 +1,29 @@
+#imageMenu{
+    /*all text item in center*/
+    text-align: center;
+    /*position is where to locate this element*/
+    position:fixed;
+    /*screen bottom*/
+    bottom: 0px;
+    /*will be 100% of body width*/
+    width: 100%;
+}
+
+#imageMenu ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imageMenu li{
+    display: inline;
+}
+
+#imageMenu img{
+    width: 200px;
+    height: 200px;
+}
+
+#imageMenu img:hover{
+    width: 200px;
+    height: 200px;
+}
