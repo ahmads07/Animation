@@ -1,0 +1,11 @@
+/*divider*/
+#animalPictures{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+/*images in divider*/
+#animalPictures img {
+    height: 50px;
+}
